@@ -160,7 +160,7 @@ void SendMessage()
 delay(500);
   sim.println("AT+CMGF=1");
   delay(500);
-  sim.println("AT+CMGS=\"+919116207724\"\r");
+  sim.println("AT+CMGS=\"Your phone no.\"\r");
   delay(500);
   delay(500);
   sim.print("   ! ALERT! \n Hi sir ome wants to enter in room \n  ");
